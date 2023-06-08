@@ -1,0 +1,61 @@
+{
+  "id": "00d3ce77-10ac-4b46-b505-3b02b37d106a",
+  "name": "sides_drinks",
+  "auto": true,
+  "contexts": [
+    "sides"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "add_more",
+          "lifespan": 1
+        },
+        {
+          "name": "sides_drinks-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1d7df6ca-3061-456b-ac6f-249fc34c22e9",
+          "name": "side_drinks",
+          "required": false,
+          "dataType": "@side_drinks",
+          "value": "$side_drinks",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want to add anything more to your order?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

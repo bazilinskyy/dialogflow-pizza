@@ -1,0 +1,67 @@
+[
+  {
+    "id": "035907de-bfba-4b3f-9730-abf5be68fa4d",
+    "data": [
+      {
+        "text": "I am in a mood for ",
+        "userDefined": false
+      },
+      {
+        "text": "extra large",
+        "meta": "@pizza_size",
+        "alias": "pizza_size",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "564221e1-af75-4cb6-96bc-21c92473e067",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "personal",
+        "meta": "@pizza_size",
+        "alias": "pizza_size",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7e7c71e-cbc2-4647-98b9-4df02a9dcb6f",
+    "data": [
+      {
+        "text": "Medium",
+        "meta": "@pizza_size",
+        "alias": "pizza_size",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "id": "020974b0-8c4e-42a4-862a-b41a009dfec5",
+  "name": "side_drinks",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}

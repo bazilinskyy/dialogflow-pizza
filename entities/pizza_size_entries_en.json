@@ -1,0 +1,27 @@
+[
+  {
+    "value": "personal",
+    "synonyms": [
+      "personal",
+      "small"
+    ]
+  },
+  {
+    "value": "medium",
+    "synonyms": [
+      "medium"
+    ]
+  },
+  {
+    "value": "large",
+    "synonyms": [
+      "large"
+    ]
+  },
+  {
+    "value": "extra large",
+    "synonyms": [
+      "extra large"
+    ]
+  }
+]

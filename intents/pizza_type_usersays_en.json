@@ -1,0 +1,63 @@
+[
+  {
+    "id": "5dc554be-c1a6-41c2-8f37-be36d754103a",
+    "data": [
+      {
+        "text": "pepperoni",
+        "meta": "@pizza_type",
+        "alias": "pizza_type",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc825590-3028-4ca6-a7e2-fe3b21914492",
+    "data": [
+      {
+        "text": "I want a ",
+        "userDefined": false
+      },
+      {
+        "text": "hawaiian",
+        "meta": "@pizza_type",
+        "alias": "pizza_type",
+        "userDefined": true
+      },
+      {
+        "text": " pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "361e7efc-37bd-4cfd-ab3c-9429b03b89ef",
+    "data": [
+      {
+        "text": "I am in a mood for ",
+        "userDefined": false
+      },
+      {
+        "text": "margharita",
+        "meta": "@pizza_type",
+        "alias": "pizza_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

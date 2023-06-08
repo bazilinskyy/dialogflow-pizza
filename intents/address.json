@@ -1,0 +1,57 @@
+{
+  "id": "a1b42974-6fdf-4949-a037-4e97ca49777e",
+  "name": "address",
+  "auto": true,
+  "contexts": [
+    "address"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "end",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a6d766c1-0dc0-4670-912d-f4f4444daaa6",
+          "name": "address",
+          "required": false,
+          "dataType": "@sys.address",
+          "value": "$address",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Wonderful! Your order number is 12321. You can expect to receive your order in 30 min at $address.original. Please pay 12 Euros when you receive your order."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

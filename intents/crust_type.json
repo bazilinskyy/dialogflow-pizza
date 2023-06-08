@@ -1,0 +1,66 @@
+{
+  "id": "5eeca687-3c51-4676-9f63-17ec34db45d5",
+  "name": "crust_type",
+  "auto": true,
+  "contexts": [
+    "pizza"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 1
+        },
+        {
+          "name": "crust_type-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2c83e29e-db5e-481f-9ea2-e5621cd9a8a4",
+          "name": "crust_type",
+          "required": true,
+          "dataType": "@crust_type",
+          "value": "$crust_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify the crust type. Thin or thick?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Oh. I like $crust_type too! Any extra toppings for you?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

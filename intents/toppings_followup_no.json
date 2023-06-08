@@ -1,0 +1,49 @@
+{
+  "id": "094eb8e3-5a52-4362-917e-6b689e1929f1",
+  "parentId": "5eeca687-3c51-4676-9f63-17ec34db45d5",
+  "rootParentId": "5eeca687-3c51-4676-9f63-17ec34db45d5",
+  "name": "toppings_followup_no",
+  "auto": true,
+  "contexts": [
+    "pizza",
+    "crust_type-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "crust_type.crust_type-no",
+      "affectedContexts": [
+        {
+          "name": "sides",
+          "lifespan": 1
+        },
+        {
+          "name": "toppings_followup_no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you like to order any sides or drinks with it?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

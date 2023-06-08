@@ -1,0 +1,42 @@
+{
+  "id": "b4d62d1f-af03-4961-acf1-3e5cee7fcacd",
+  "name": "proceed_followup_yes",
+  "auto": true,
+  "contexts": [
+    "proceed"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "confirm_followup_yes.confirm_followup_yes-yes",
+      "affectedContexts": [
+        {
+          "name": "address",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Can you please enter your delivery address?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

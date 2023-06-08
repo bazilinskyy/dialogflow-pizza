@@ -1,0 +1,55 @@
+[
+  {
+    "id": "516b27c2-4fed-411a-bf1b-143b50de9cbe",
+    "data": [
+      {
+        "text": "Eindhoven central station",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4679077d-cb70-4d2a-a082-175fed5e52e3",
+    "data": [
+      {
+        "text": "Deliver it at ",
+        "userDefined": false
+      },
+      {
+        "text": "Atlas 4.122, Het Eeuwsel 53, TU Eindhoven, 5612 AZ Eindhoven",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "376dce99-5361-42ec-b02d-6369e19604b1",
+    "data": [
+      {
+        "text": "Please deliver at ",
+        "userDefined": false
+      },
+      {
+        "text": "La Luna 1335 TU/e campus",
+        "meta": "@sys.address",
+        "alias": "address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

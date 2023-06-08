@@ -1,0 +1,59 @@
+[
+  {
+    "id": "d05ad229-79e6-4bcf-b555-0c6d7b96f62c",
+    "data": [
+      {
+        "text": "italian",
+        "meta": "@crust_type",
+        "alias": "crust_type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6e59d5f-c442-4867-974d-f6c0549116d0",
+    "data": [
+      {
+        "text": "thin",
+        "meta": "@crust_type",
+        "alias": "crust_type",
+        "userDefined": true
+      },
+      {
+        "text": " crust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26f5419e-1bfa-4764-9df8-f2659d38200b",
+    "data": [
+      {
+        "text": "I like ",
+        "userDefined": false
+      },
+      {
+        "text": "new york",
+        "meta": "@crust_type",
+        "alias": "crust_type",
+        "userDefined": true
+      },
+      {
+        "text": " style crust",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

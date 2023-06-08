@@ -1,0 +1,62 @@
+{
+  "id": "bcb9535a-e79a-4ccd-bb40-37fbdec3060c",
+  "name": "pizza_type",
+  "auto": true,
+  "contexts": [
+    "pizza"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e2043228-a841-4671-a7a6-8772cf9e3d8d",
+          "name": "pizza_type",
+          "required": true,
+          "dataType": "@pizza_type",
+          "value": "$pizza_type",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you tell me what type of pizza you would like to order? Pepperoni maybe?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "What size would you prefer?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

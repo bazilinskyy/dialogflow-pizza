@@ -1,0 +1,9 @@
+{
+  "id": "e3790cd8-cad4-42ef-a8e1-cb73762a6147",
+  "name": "crust_type",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": true
+}

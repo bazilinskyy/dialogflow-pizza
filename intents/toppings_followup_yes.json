@@ -1,0 +1,45 @@
+{
+  "id": "5e068095-e51f-4844-9b08-9f116eafc9e0",
+  "parentId": "5eeca687-3c51-4676-9f63-17ec34db45d5",
+  "rootParentId": "5eeca687-3c51-4676-9f63-17ec34db45d5",
+  "name": "toppings_followup_yes",
+  "auto": true,
+  "contexts": [
+    "pizza",
+    "crust_type-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "crust_type.crust_type-yes",
+      "affectedContexts": [
+        {
+          "name": "sides",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Can you tell me what toppings you would like on your pizza?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

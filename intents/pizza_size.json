@@ -1,0 +1,62 @@
+{
+  "id": "4f1910cd-fb2f-42fc-a656-6c78c189c646",
+  "name": "pizza_size",
+  "auto": true,
+  "contexts": [
+    "pizza"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pizza",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6e68af02-eb01-41c3-a4de-5f2be85441b4",
+          "name": "pizza_size",
+          "required": true,
+          "dataType": "@pizza_size",
+          "value": "$pizza_size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Can you please specify the size?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright! What type of crust do you fancy?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

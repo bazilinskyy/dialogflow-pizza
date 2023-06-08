@@ -1,0 +1,37 @@
+{
+  "id": "d4fbcac9-f359-4aea-a245-8e3768bb57c7",
+  "name": "proceed_followup_no",
+  "auto": true,
+  "contexts": [
+    "proceed"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "confirm_followup_yes.confirm_followup_yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Defatult response"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

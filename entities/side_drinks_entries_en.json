@@ -1,0 +1,28 @@
+[
+  {
+    "value": "cola",
+    "synonyms": [
+      "cola"
+    ]
+  },
+  {
+    "value": "fanta",
+    "synonyms": [
+      "fanta"
+    ]
+  },
+  {
+    "value": "chicken wings",
+    "synonyms": [
+      "chicken wings",
+      "wings"
+    ]
+  },
+  {
+    "value": "garlic breadstick",
+    "synonyms": [
+      "garlic breadstick",
+      "breadstick"
+    ]
+  }
+]

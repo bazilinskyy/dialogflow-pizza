@@ -1,0 +1,46 @@
+{
+  "id": "17121f26-0548-414a-87ec-c78c191a9478",
+  "name": "add_more_followup_no",
+  "auto": true,
+  "contexts": [
+    "add_more"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sides_drinks.sides_drinks-no",
+      "affectedContexts": [
+        {
+          "name": "confirm",
+          "lifespan": 1
+        },
+        {
+          "name": "add_more_followup_no-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright. You have ordered a #pizza.pizza_size #pizza.crust_type #pizza.pizza_type and #sides.sides_drinks Do you want to confirm?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

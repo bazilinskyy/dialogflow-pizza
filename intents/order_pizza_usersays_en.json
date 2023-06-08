@@ -1,0 +1,41 @@
+[
+  {
+    "id": "8d9549ce-145d-4897-bd2f-ae86baa8971e",
+    "data": [
+      {
+        "text": "I want to order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bba7caea-fe7b-41f2-a20b-4e78d732ad06",
+    "data": [
+      {
+        "text": "Order pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2cf1ebf9-6229-4179-a473-789f31fd130d",
+    "data": [
+      {
+        "text": "I would like to order a pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

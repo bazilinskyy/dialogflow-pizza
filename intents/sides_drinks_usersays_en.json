@@ -1,0 +1,120 @@
+[
+  {
+    "id": "5020b8fc-c057-4950-b6ca-a88c07b9d16d",
+    "data": [
+      {
+        "text": "garlic breadstick",
+        "meta": "@side_drinks",
+        "alias": "side_drinks",
+        "userDefined": true
+      },
+      {
+        "text": " mate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67989779-b53a-4d73-8980-9156587f3682",
+    "data": [
+      {
+        "text": "A can of ",
+        "userDefined": false
+      },
+      {
+        "text": "cola",
+        "meta": "@side_drinks",
+        "alias": "side_drinks",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23cea9e0-b9d6-4ff1-ad1f-7b52b1ec9a71",
+    "data": [
+      {
+        "text": "One ",
+        "userDefined": false
+      },
+      {
+        "text": "cola",
+        "meta": "@side_drinks",
+        "alias": "side_drinks",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "43137e6a-54bd-4a08-bc06-ae4a292fc1b5",
+    "data": [
+      {
+        "text": "I want a portion of ",
+        "userDefined": false
+      },
+      {
+        "text": "wings",
+        "meta": "@side_drinks",
+        "alias": "side_drinks",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2d331974-a006-43ec-a468-ac64f69360c2",
+    "data": [
+      {
+        "text": "A can of ",
+        "userDefined": false
+      },
+      {
+        "text": "fanta",
+        "meta": "@side_drinks",
+        "alias": "side_drinks",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18b18e6b-363b-4b69-9684-604e76fc7b73",
+    "data": [
+      {
+        "text": "Chicken wings",
+        "meta": "@side_drinks",
+        "alias": "side_drinks",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

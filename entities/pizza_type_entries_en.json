@@ -1,0 +1,25 @@
+[
+  {
+    "value": "pepperoni",
+    "synonyms": [
+      "pepperoni",
+      "pizza with salami",
+      "pizza with meat"
+    ]
+  },
+  {
+    "value": "hawaiian",
+    "synonyms": [
+      "hawaiian",
+      "pineapple with ham"
+    ]
+  },
+  {
+    "value": "margharita",
+    "synonyms": [
+      "margharita",
+      "cheese and tomato sauce",
+      "kaas en tomaatsaus"
+    ]
+  }
+]

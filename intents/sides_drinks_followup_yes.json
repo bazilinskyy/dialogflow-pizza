@@ -1,0 +1,34 @@
+{
+  "id": "ccb7a620-2b71-4214-b0ab-d8d5aab32e2a",
+  "name": "sides_drinks_followup_yes",
+  "auto": true,
+  "contexts": [
+    "sides"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "crust_type.crust_type-no.toppings_followup_no-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

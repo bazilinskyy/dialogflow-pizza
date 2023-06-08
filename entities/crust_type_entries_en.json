@@ -1,0 +1,17 @@
+[
+  {
+    "value": "thin",
+    "synonyms": [
+      "thin",
+      "italian"
+    ]
+  },
+  {
+    "value": "thick",
+    "synonyms": [
+      "thick",
+      "american",
+      "new york"
+    ]
+  }
+]

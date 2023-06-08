@@ -1,0 +1,46 @@
+{
+  "id": "71a01c29-2ac5-4fb9-84f7-dcc2c8c82c50",
+  "name": "confirm_followup_yes",
+  "auto": true,
+  "contexts": [
+    "confirm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "add_more_followup_no.add_more_followup_no-yes",
+      "affectedContexts": [
+        {
+          "name": "proceed",
+          "lifespan": 1
+        },
+        {
+          "name": "confirm_followup_yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The order will be 12 Euros. Would you like to proceed?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
